@@ -1,0 +1,265 @@
+/*
+  A dark theme for boardgamearena.com
+  by Ryan Niswonger
+  https://github.com/rniswonger/boardgamearena-dark-theme/
+*/
+/* Backgrounds */
+html,
+.playernotification_not_read {
+  background: #6b4d75;
+}
+
+/* Disable the box shadows */
+.gamelist_item,
+.wannaplayauto_button {
+  box-shadow: none;
+}
+
+/* Text */
+html,
+.pageheader_menuitem,
+.pageheader_menu_verylarge .pageheader_big_switch,
+a:link,
+a:visited,
+.notouch-device a:hover,
+.wannaplayauto_item .gamenameinner a,
+.pagesection h2,
+.portlet h2,
+.pagesection h3,
+.portlet h3,
+#lobby_invite_friend_zone {
+  color: #ececec;
+}
+
+.notouch-device .gamelist_item:hover {
+  background-color: #ffffff2b;
+}
+
+/* Tooltips */
+.tundra .dijitTooltipContainer {
+  background: #333;
+  color: #fff;
+}
+
+.dj_webkit .tundra .dijitTooltipContainer {
+  box-shadow: 0 5px 10px #111;
+}
+
+.tundra .dijitTooltipAbove .dijitTooltipConnector {
+  background: none;
+}
+
+/* Header */
+#topbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#111));
+  background: linear-gradient(180deg, #222, #111);
+}
+
+#topbar a {
+  color: #6e99e1;
+}
+
+/* Sections */
+#__SECTION-BACKGROUND,
+.pageheader,
+.pagesection,
+.portlet,
+.tips {
+  background-color: rgba(48, 48, 48, 0.85);
+}
+
+#page-title,
+#page-title.current_player_is_active #page-title,
+.pagesection h2,
+.portlet h2,
+.pagesection h3,
+.portlet h3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#222));
+  background: linear-gradient(180deg, #333, #222);
+}
+
+.pagesection h2 a,
+.portlet h2 a,
+.pagesection h3 a,
+.portlet h3 a {
+  color: #aaa;
+}
+
+/* Buttons */
+.bgabutton,
+a.bgabutton:link {
+  background: #999;
+  color: #000;
+  text-shadow: none;
+}
+
+/* Some other things :> */
+#current_table_banner {
+  background-color: #748c26;
+}
+
+.roundedbox .roundedbox_main,
+.roundedbox .roundedbox_top > *,
+.roundedbox .roundedbox_bottom > *,
+.roundedbox {
+  background-color: rgba(48, 48, 48, 0.85);
+  color: #ddd;
+}
+
+.pageheader_menu_verylarge
+.pageheader_big_switch_dropdown
+.pageheader_menuitem {
+  background: #2b2b2b;
+}
+
+.standard_popin_underlay,
+.standard_popin,
+.player-board,
+.chatwindowavatar,
+.gamestate_gameEnd #page-title,
+.pageheader_menu_verylarge .pageheader_big_switch,
+#ingame_menu_content,
+.head_info,
+.notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover,
+.pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch,
+.pageheader_menu_verylarge
+.pageheader_big_switch_dropdown
+.pageheader_menuitem.pageheader_menuitemselected {
+  background: #333;
+}
+
+/* In-game */
+.notouch-device .ingame_menu_item:hover {
+  background-color: #404040;
+}
+
+.current_player_is_active #page-title {
+  border: 2px dashed red;
+}
+
+#page-title {
+  text-shadow: 0 0 1px #ccc;
+}
+
+/* Fix */
+.dijitTextBox {
+  max-width: 100%;
+}
+
+/* Game search */
+.tundra .dijitMenu,
+.tundra .dijitMenuBar {
+  background-color: #444;
+}
+
+/* Chat */
+.chatwindowlogs,
+.chatwindowexpanded {
+  background-color: #b07536;
+}
+
+.chatwindowlogs_zone .roundedbox.chatlog .roundedboxinner {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.mobile_version.chatbar_ontop #chatbar_inner:before {
+  background: rgba(64, 64, 64, 0.88);
+}
+
+#chatbarinput_stopnotif_general {
+  color: #333;
+}
+
+/* Other */
+.gamestart_overlay {
+  background: #222;
+}
+
+/* General */
+.whiteblock {
+  background: #222;
+}
+
+/* Form fields */
+.board_fake_input,
+input,
+textarea,
+select {
+  background-color: #333;
+  color: #ddd;
+}
+
+/* Play Games page */
+.switcher_zone {
+  color: #9e9e9e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#1d1d1d));
+  background: linear-gradient(#424242, #1d1d1d);
+  border-left: 1px solid #636363;
+}
+
+.newbgatable td {
+  color: #ddd;
+}
+
+/* News */
+.extended_message_hidden:after {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 241, 234, 0)), to(#39343a));
+  background: linear-gradient(rgba(248, 241, 234, 0), #39343a);
+}
+
+.comment {
+  background-image: none;
+  background-color: #282428;
+}
+
+/* Avatar / settings menu */
+#login-menu,
+#language_switcher_dropdown,
+#mobile-menu,
+#friend-menu {
+  background: #333;
+  color: #ccc;
+}
+
+#topbar #login-menu a,
+#language_switcher_dropdown a,
+#mobile-menu a,
+#friend-menu a {
+  color: #ccc;
+}
+
+/* Play page */
+.gametable {
+  border: 1px #333 solid;
+  background-color: #555;
+}
+
+/* Tabs */
+.tabbed_slider_bar_right,
+.tabbed_slider_bar_left,
+.pagesection .tabbed_slider_bar_right,
+.pagesection .tabbed_slider_bar_left {
+  border-top-color: #333;
+}
+
+.tabbed_slider_bar_barcenter,
+.pagesection .tabbed_slider_bar_barcenter {
+  background-color: #333;
+}
+
+/* Game loading screen */
+#loader_mask {
+  background-color: #000;
+}
+
+/* GAME: POTION EXPOSION */
+.cupboard,
+.active,
+.discard {
+  background: #333;
+}
+
+.potion_tooltip_small {
+  background-color: #000;
+}
