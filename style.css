@@ -254,12 +254,6 @@ select {
 }
 
 /* GAME: POTION EXPOSION */
-.cupboard,
-.active,
-.discard {
-  background: #333;
-}
-
 .potion_tooltip_small {
   background-color: #000;
 }
