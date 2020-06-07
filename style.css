@@ -3,10 +3,13 @@
   by Ryan Niswonger
   https://github.com/rniswonger/boardgamearena-dark-theme/
 */
+
+$page-background-color: #6b4d75;
+
 /* Backgrounds */
 html,
 .playernotification_not_read {
-  background: #6b4d75;
+  background: $page-background-color;
 }
 
 /* Disable the box shadows */
@@ -51,7 +54,6 @@ a:visited,
 
 /* Header */
 #topbar {
-  background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#111));
   background: linear-gradient(180deg, #222, #111);
 }
 
@@ -74,7 +76,6 @@ a:visited,
 .portlet h2,
 .pagesection h3,
 .portlet h3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#222));
   background: linear-gradient(180deg, #333, #222);
 }
 
@@ -107,8 +108,8 @@ a.bgabutton:link {
 }
 
 .pageheader_menu_verylarge
-.pageheader_big_switch_dropdown
-.pageheader_menuitem {
+  .pageheader_big_switch_dropdown
+  .pageheader_menuitem {
   background: #2b2b2b;
 }
 
@@ -123,8 +124,8 @@ a.bgabutton:link {
 .notouch-device .pageheader_menu_verylarge .pageheader_big_switch:hover,
 .pageheader_menu_verylarge .dropdown_expanded .pageheader_big_switch,
 .pageheader_menu_verylarge
-.pageheader_big_switch_dropdown
-.pageheader_menuitem.pageheader_menuitemselected {
+  .pageheader_big_switch_dropdown
+  .pageheader_menuitem.pageheader_menuitemselected{
   background: #333;
 }
 
@@ -176,10 +177,12 @@ a.bgabutton:link {
   background: #222;
 }
 
+
 /* General */
 .whiteblock {
   background: #222;
 }
+
 
 /* Form fields */
 .board_fake_input,
@@ -193,7 +196,6 @@ select {
 /* Play Games page */
 .switcher_zone {
   color: #9e9e9e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#1d1d1d));
   background: linear-gradient(#424242, #1d1d1d);
   border-left: 1px solid #636363;
 }
@@ -202,9 +204,9 @@ select {
   color: #ddd;
 }
 
+
 /* News */
 .extended_message_hidden:after {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 241, 234, 0)), to(#39343a));
   background: linear-gradient(rgba(248, 241, 234, 0), #39343a);
 }
 
@@ -212,6 +214,7 @@ select {
   background-image: none;
   background-color: #282428;
 }
+
 
 /* Avatar / settings menu */
 #login-menu,
@@ -254,6 +257,12 @@ select {
 }
 
 /* GAME: POTION EXPOSION */
+
 .potion_tooltip_small {
   background-color: #000;
+}
+
+/* disabled player board */
+.player-board.roundedboxdisabled {
+    background-color: #656565;
 }
